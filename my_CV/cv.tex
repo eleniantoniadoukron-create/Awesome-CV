@@ -1,0 +1,34 @@
+%!TEX TS-program = lualatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.5cm, footskip=.5cm}
+\colorlet{awesome}{awesome-red}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\name{Elena}{Antoniadou}
+\position{Software Test Engineer{\enskip\cdotp\enskip}AI Engineer}
+\address{Thessaloniki, Greece}
+\mobile{(+30) 6971870226}
+\email{eleni.antoniadou.kron@gmail.com}
+\extrainfo{Greek nationality}
+\hypersetup{
+  pdftitle={Elena Antoniadou - Curriculum Vitae},
+  pdfauthor={Elena Antoniadou}
+}
+
+\begin{document}
+
+\makecvheader
+\makecvfooter
+  {}
+  {Elena Antoniadou~~~\textperiodcentered~~~Curriculum Vitae}
+  {\thepage}
+
+\input{my_CV/experience.tex}
+\input{my_CV/education.tex}
+\input{my_CV/skills.tex}
+\input{my_CV/certificates.tex}
+
+\end{document}
